@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.page {
+  padding: 20px;
+  padding-bottom: 120px;
+}
+
+.card {
+  background: #181818;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background: #222;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 70px;
+  width: 100%;
+  background: #111;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
